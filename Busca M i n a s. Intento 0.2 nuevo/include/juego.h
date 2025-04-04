@@ -1,33 +1,34 @@
-#ifndef JUEGO_H
+#ifndef JUEGO_H //by to meilyn garcia 9959-23-17838, marzo2025
 #define JUEGO_H
 
 #include "Tablero.h"
 #include "Configuracion.h"
 #include <chrono>
 
-// Clase Juego
-// Esta clase gestiona la lógica del juego, incluyendo la interacción con el tablero
-// y la configuración del juego. Permite iniciar el juego y manejar el flujo de la partida.
+// Definición de la clase Juego
+// Responsable de gestionar la dinámica del juego, interactuando con el tablero
+// y utilizando la configuración definida. Facilita la ejecución del juego y controla el progreso de la partida.
 class Juego {
 private:
-    Tablero tablero;                          // Objeto que representa el tablero del juego
-    Configuracion& config;                    // Referencia a la configuración del juego
-    std::chrono::steady_clock::time_point inicio; // Marca de tiempo para registrar el inicio del juego
+    Tablero tablero;                          // Representa el tablero donde se desarrolla el juego
+    Configuracion& config;                    // Referencia al objeto que guarda la configuración del juego
+    std::chrono::steady_clock::time_point inicio; // Registro de la hora de inicio de la partida
 
 public:
     // Constructor de la clase Juego
-    // Inicializa el juego con la configuración proporcionada.
+    // Establece los parámetros iniciales del juego usando los valores de configuración proporcionados.
     // Parámetro:
-    // - cfg: referencia a un objeto de tipo Configuracion que contiene los parámetros del juego.
+    // - cfg: referencia a un objeto de tipo Configuracion que contiene los valores necesarios para el juego.
     Juego(Configuracion& cfg);
 
-    // Método para iniciar el juego
-    // Coloca las minas en el tablero y comienza la partida.
+    // Función para comenzar el juego
+    // Coloca las minas en el tablero y da inicio a la partida.
     void iniciar();
 
-    // Método para gestionar la lógica del juego
-    // Permite al jugador descubrir celdas en el tablero y maneja la lógica de ganar o perder.
+    // Función para ejecutar la lógica principal del juego
+    // Permite al jugador descubrir celdas y controla la lógica que determina si gana o pierde.
     void jugar();
 };
 
 #endif // JUEGO_H
+
