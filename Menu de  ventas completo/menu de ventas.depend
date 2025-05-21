@@ -314,3 +314,110 @@
 1747778310 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\venta.cpp
 	"Venta.h"
 
+1747802442 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\main.cpp
+	<iostream>
+	"SistemaVentas.h"
+	"Login.h"
+	"bitacora.h"
+	"Cliente.h"
+	"Facturacion.h"
+	"Producto.h"
+	"vendedores.h"
+	"venta.h"
+
+1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\sistemaventas.h
+	<vector>
+	<string>
+	"Cliente.h"
+	"Producto.h"
+	"Venta.h"
+	"Vendedores.h"
+
+1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\cliente.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+
+1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\producto.h
+	<string>
+	<vector>
+
+1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\venta.h
+	<string>
+	<vector>
+
+1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\vendedores.h
+	<iostream>
+	<vector>
+	<string>
+
+1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\login.h
+	<string>
+
+1747803582 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\bitacora.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\facturacion.h
+	"Cliente.h"
+	"Venta.h"
+	"SistemaVentas.h"
+
+1747803464 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\bitacora.cpp
+	"bitacora.h"
+	<iomanip>
+	<cstring>
+
+1747794157 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\cliente.cpp
+	"Cliente.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+
+1747794157 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\facturacion.cpp
+	"Facturacion.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+
+1747794157 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\login.cpp
+	"Login.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1747794157 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\producto.cpp
+	"Producto.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+
+1747794157 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\sistemaventas.cpp
+	<iostream>
+	"SistemaVentas.h"
+	<iomanip>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1747794157 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\usuario.cpp
+	"Usuario.h"
+
+1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\usuario.h
+	<string>
+
+1747794157 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\vendedores.cpp
+	"Vendedores.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+
+1747794157 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\venta.cpp
+	"Venta.h"
+
