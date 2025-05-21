@@ -314,7 +314,7 @@
 1747778310 source:c:\users\seles\downloads\drive-download-20250520t215804z-1-001\src\venta.cpp
 	"Venta.h"
 
-1747800076 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\main.cpp
+1747802442 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\main.cpp
 	<iostream>
 	"SistemaVentas.h"
 	"Login.h"
@@ -355,7 +355,7 @@
 1747794157 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\login.h
 	<string>
 
-1747799051 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\bitacora.h
+1747803582 c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\include\bitacora.h
 	<iostream>
 	<fstream>
 	<ctime>
@@ -365,7 +365,7 @@
 	"Venta.h"
 	"SistemaVentas.h"
 
-1747799412 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\bitacora.cpp
+1747803464 source:c:\users\usuario\onedrive\documentos\proyectoprogra2025\grupo 7\repositorio-grupal-no.7\menu de  ventas completo\src\bitacora.cpp
 	"bitacora.h"
 	<iomanip>
 	<cstring>

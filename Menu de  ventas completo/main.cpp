@@ -203,10 +203,12 @@ void MenuCatalogo() {
         }
     } while (opcion != 4);
 }
+//meilyn juleisy garcia lima 9959-23-17838
 void MenuArchivos() {
     int opcion;
     do {
         system("cls");
+        //muestra las opciones
         cout << "\n\t\t\t|-------------------------\n";
         cout << "\t\t\t|     MENU ARCHIVOS      |\n";
         cout << "\t\t\t|-------------------------\n";
@@ -216,17 +218,17 @@ void MenuArchivos() {
         cin >> opcion;
 
         switch (opcion) {
-            case 1:
+            case 1:// Registrar evento y mostrar la bitácora
                 registrarEvento(usuarioActual, "Visualizo la bitácora desde Archivos 5003");
-                Bitacora::mostrarBitacora();
+                Bitacora::mostrarBitacora();// Llamada al método estático para mostrar bitácora
                 system("pause");
                 break;
             case 2:
-                break;
+                break;// SALIR DEL MENU ARCHIVOS
             default:
                 cout << "Opción inválida.\n";
         }
-    } while (opcion != 2);
+    } while (opcion != 2);//Repite hasta que el usuario elija salir
 }
 
 
