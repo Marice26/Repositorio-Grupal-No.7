@@ -16,6 +16,7 @@ string usuarioActual; // Para guardar el nombre del usuario bitacora
 void mostrarMenuPrincipal();
 void MenuCatalogo();
 void MenuProcesos();
+void MenuArchivos();
 
 int main() {
     int opcion;
@@ -60,13 +61,14 @@ int main() {
 void mostrarMenuPrincipal() {
     int opcion;
     do {
-        system ("cls");
+        system("cls");
         cout << "\n\t\t\t|------------------------ \n" ;
         cout << "\t\t\t|     MENU PRINCIPAL     | \n";
         cout << "\t\t\t|------------------------- \n" ;
         cout << "\t\t\t|1. Catalogos\n";
         cout << "\t\t\t|2. Procesos\n";
-        cout << "\t\t\t|3. Salir del sistema\n";
+        cout << "\t\t\t|3. Archivos\n";  // Nueva opción
+        cout << "\t\t\t|4. Salir del sistema\n";
         cout << "\t\t\t|Seleccione una opcion: ";
         cin >> opcion;
 
@@ -80,13 +82,17 @@ void mostrarMenuPrincipal() {
                 MenuProcesos();
                 break;
             case 3:
+                registrarEvento(usuarioActual, "Entro a la opcion Archivos 5002 ");
+                MenuArchivos();
+                break;
+            case 4:
                 registrarEvento(usuarioActual, "Salio del menu general 5002 ");
                 cout << "Cerrando sesion...\n";
                 break;
             default:
                 cout << "Opcion no valida.\n";
         }
-    } while (opcion != 3);
+    } while (opcion != 4);
 }
 
 void MenuProcesos() {
@@ -197,4 +203,30 @@ void MenuCatalogo() {
         }
     } while (opcion != 4);
 }
+void MenuArchivos() {
+    int opcion;
+    do {
+        system("cls");
+        cout << "\n\t\t\t|-------------------------\n";
+        cout << "\t\t\t|     MENU ARCHIVOS      |\n";
+        cout << "\t\t\t|-------------------------\n";
+        cout << "\t\t\t|1. Ver Bitacora\n";
+        cout << "\t\t\t|2. Regresar al Menu Principal\n";
+        cout << "\t\t\t|Seleccione una opcion: ";
+        cin >> opcion;
+
+        switch (opcion) {
+            case 1:
+                registrarEvento(usuarioActual, "Visualizo la bitácora desde Archivos 5003");
+                Bitacora::mostrarBitacora();
+                system("pause");
+                break;
+            case 2:
+                break;
+            default:
+                cout << "Opción inválida.\n";
+        }
+    } while (opcion != 2);
+}
+
 

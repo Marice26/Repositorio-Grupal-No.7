@@ -1,9 +1,25 @@
-#ifndef BITACORA_H//meilyn juleisy garcia lima 9959-23-17838
+#ifndef BITACORA_H
 #define BITACORA_H
 
-#include <string>
-#include "Cliente.h"
+#include <iostream>
+#include <fstream>
+#include <ctime>
+using namespace std;
 
-void registrarEvento(const std::string& usuario, const std::string& evento);
+class Bitacora {
+private:
+    char usuario[50];
+    char accion[100];
+    char fechaHora[25];
+
+public:
+    Bitacora() = default;
+    Bitacora(string user, string acc);
+
+    void guardarEnArchivo();
+    static void mostrarBitacora();
+};
+
+void registrarEvento(const string& usuario, const string& accion);
 
 #endif
